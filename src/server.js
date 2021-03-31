@@ -1,10 +1,9 @@
-const express = require('express');
+const express = require("express");
 const server = express();
+const routes = require("./routes");
 
-//request, response
-server.get('/', (request, response) => {
+server.use(express.static("public"));
 
-    return response.send('hello !');
-});
-
+//routes
+server.use(routes);
 server.listen(3000, () => console.log('running')); 
