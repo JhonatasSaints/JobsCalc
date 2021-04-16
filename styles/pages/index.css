@@ -1,0 +1,20 @@
+#top {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#logo {
+    width:15rem;
+    height: 5rem;
+}
+#notification {
+    display:flex;
+    align-items:center;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+}
+#notification img {
+    margin: 0.5rem;
+}
